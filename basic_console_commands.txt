@@ -7,3 +7,15 @@ touch fileName – create file
 nano – text editor
 echo “Your text” > yourfilename.txt – will create text file with provided text
 rm – remove file
+
+echo "# Project_pytest" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/CherkashinaLarisa/Project_pytest.git
+git push -u origin main
+
+git remote add origin https://github.com/CherkashinaLarisa/Project_pytest.git
+git branch -M main
+git push -u origin main
